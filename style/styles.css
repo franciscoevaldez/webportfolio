@@ -1,0 +1,34 @@
+header{
+
+	background-color: rgba(255, 255, 255, 0.9);
+	border-bottom: 2px black solid;
+
+}
+
+footer{
+
+	background-color: rgba(255, 255, 255, 0.5);
+	border-top: 2px black solid;
+
+	position: fixed !important;
+	display: block !important;
+	bottom: 0px !important;
+	max-width: 1200px;
+	z-index: 99;
+
+}
+
+h1 { 
+	font-size:2.2em; 
+	padding:0 0 .5em 0; 
+}
+
+
+h2 {
+	font-size:1.5em;
+}
+
+.column,
+.columns {
+	background-color: blue;
+}
