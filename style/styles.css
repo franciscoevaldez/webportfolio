@@ -1,33 +1,77 @@
 header{
 
-	background-color: rgba(255, 255, 255, 0.9);
+	position: relative !important;
+	background-color: rgba(255, 255, 255, 0.8);
 	border-bottom: 2px black solid;
+
+	height: 250px;
 
 }
 
+div#mainTitle{
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+}
+
+div#mainTitle > h1{
+	margin: 0;
+	line-height: 1.2 !important;
+}
+
+div#mainTitle > p{
+
+	font-size: 4.8rem !important;
+	line-height: 1.2;
+	margin: 0;
+
+}
+
+nav{
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+	text-align: right;
+	font-size: 1.8rem;
+}
+
+section#workArray{
+	padding: 40px 0;
+}
+
+
+div.workThumb{
+
+	background-color: red;
+	height: 200px;
+
+	margin-bottom: 3.8%;
+
+}
+
+
 footer{
 
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
 	border-top: 2px black solid;
+
+	height: 50px;
 
 	position: fixed !important;
 	display: block !important;
 	bottom: 0px !important;
 	z-index: 99;
 
+	font-size: 1.4rem;
+
 }
 
-h1 { 
-	font-size:2.2em; 
-	padding:0 0 .5em 0; 
+footer .row div{
+	padding-top: 14px;
 }
 
+footer #legal{
 
-h2 {
-	font-size:1.5em;
-}
+	text-align: right;
 
-.column,
-.columns {
-	background-color: blue;
 }
