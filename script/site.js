@@ -5,12 +5,12 @@ $(document).ready(function() {
 		if ($(this).scrollTop() > 200){  
 
 			$('header').addClass("stacked");
-			$('#workArray').addClass("padded");
+			$('.firstContent').addClass("padded");
 
 		} else {
 
 			$('header').removeClass("stacked");
-			$('#workArray').removeClass("padded");
+			$('.firstContent').removeClass("padded");
 
 		}
 

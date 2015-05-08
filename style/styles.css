@@ -1,3 +1,9 @@
+
+
+/* ------------------------------------------------------------ */
+/* -------------------------- HEADER -------------------------- */
+/* ------------------------------------------------------------ */
+
 header{
 
 	background-color: rgba(255, 255, 255, 0.8);
@@ -31,11 +37,12 @@ header.stacked{
 
 	position: fixed !important;
 	display: block !important;
-	width: 80% !important;
 	max-width: 1200px !important;
 	top: 0px !important;
 	
 }
+
+
 
 @media (min-width: 500px) {header.stacked{height: 55px;}}
 @media (min-width: 750px) {header.stacked{height: 65px;}}
@@ -46,7 +53,6 @@ header.stacked div#mainTitle > p{ display: none; }
 
 div#mainTitle{
 	position: absolute;
-	bottom: 20px;
 	left: 0px;
 }
 
@@ -70,22 +76,32 @@ div#mainTitle > p{
 
 nav{
 	position: absolute;
-	bottom: 20px;
 	right: 0px;
 	text-align: right;
 	font-size: 1.8rem;
 }
 
+@media (min-width: 500px) {div#mainTitle, nav{bottom: 8px;}}
+@media (min-width: 650px) {div#mainTitle, nav{bottom: 10px;}}
+@media (min-width: 750px) {div#mainTitle, nav{bottom: 15px;}}
+@media (min-width: 1000px) {div#mainTitle, nav{bottom: 20px;}}
+
 @media (min-width: 500px) {nav{font-size: 1.2rem;}}
 @media (min-width: 750px) {nav{font-size: 1.4rem;}}
 @media (min-width: 1000px) {nav{font-size: 1.8rem;}}
 
-section#workArray{
-	padding: 40px 0;
+.firstContent.padded{
+	padding-top: 350px !important;
 }
 
-section#workArray.padded{
-	padding-top: 350px;
+
+/* ------------------------------------------------------------- */
+/* -------------------------- LANDING -------------------------- */
+/* ------------------------------------------------------------- */
+
+
+section#workArray{
+	padding: 40px 0;
 }
 
 
@@ -101,6 +117,85 @@ div.workThumb{
 @media (min-width: 650px) {div.workThumb{height: 110px;}}
 @media (min-width: 950px) {div.workThumb{height: 140px;}}
 @media (min-width: 1200px) {div.workThumb{height: 200px;}}
+
+
+/* ----------------------------------------------------------- */
+/* -------------------------- ABOUT -------------------------- */
+/* ----------------------------------------------------------- */
+
+body#about section{
+
+	padding: 4rem 0;
+
+}
+
+body#about p{
+	margin-bottom: 0;
+}
+
+body#about section#intro p{
+	font-size: 2.8rem;
+	font-weight: 700;
+}
+
+@media (max-width: 650px) {body#about section#intro p { font-size: 1.8rem; }}
+@media (min-width: 650px) {body#about section#intro p { font-size: 1.8rem; }}
+@media (min-width: 750px) {body#about section#intro p { font-size: 2.2rem; }}
+@media (min-width: 960px) {body#about section#intro p { font-size: 2.8rem; }}
+
+body#about section#secondary p{
+	font-size: 2.0rem;
+}
+
+@media (max-width: 650px) {
+	body#about section#secondary p { font-size: 1.4rem;}
+	body#about section#secondary p:first-child {margin-bottom: 15px}
+}
+@media (min-width: 650px) {body#about section#secondary p { font-size: 1.6rem; }}
+@media (min-width: 750px) {body#about section#secondary p { font-size: 1.8rem; }}
+@media (min-width: 960px) {body#about section#secondary p { font-size: 2.0rem; }}
+
+body#about section#details{
+	font-size: 1.4rem;
+	padding-bottom: 120px;
+}
+
+@media (min-width: 750px) {body#about section#details { font-size: 1.2rem; }}
+@media (min-width: 960px) {body#about section#details { font-size: 1.4rem; }}
+
+body#about section#details li{
+	list-style: none;
+	margin-bottom: 0;
+}
+
+@media (max-width:749px) and (min-width:500px) {
+	body#about section#details .three.columns		{ width: 48%;            }
+	body#about section#details .column,
+	body#about section#details .columns {
+		margin-left: 4%; }
+
+	body#about section#details .column:first-child,
+	body#about section#details .columns:first-child,
+	body#about section#details .column:nth-child(3),
+	body#about section#details .columns:nth-child(3) {
+		margin-left: 0; }
+}
+
+@media (min-width: 750px) {
+	body#about section#details .three.columns		{ width: 22%;            }
+}
+
+section.splitted{
+
+	border-bottom: 2px solid black;
+
+}
+
+
+/* ------------------------------------------------------------ */
+/* -------------------------- FOOTER -------------------------- */
+/* ------------------------------------------------------------ */
+
 
 footer{
 
