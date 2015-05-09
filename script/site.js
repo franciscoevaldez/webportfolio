@@ -31,6 +31,7 @@ $(document).ready(function() {
 			$('body').removeClass("fxDontHide");
 		}		
 
+		/*
 		$(window).scroll(function() {
 
 			if ($(window).scrollTop() > 200 && !$('body').hasClass("fxDontHide")){  
@@ -59,6 +60,7 @@ $(document).ready(function() {
 			}
 
 		});
+
 
 		$('a#closedetails').click(function() {
 
@@ -95,6 +97,8 @@ $(document).ready(function() {
 			$('#descriptionrow').slideDown();
 
 		});
+
+		*/
 
 	};
 
