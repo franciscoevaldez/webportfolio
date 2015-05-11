@@ -6,7 +6,7 @@
 
 header{
 
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.9);
 	border-bottom: 2px black solid;
 
 	position: relative;
@@ -34,15 +34,12 @@ header div#mainTitle > h1{ display: none; }
 header.stacked{
 
 	height: 80px;
-
-	position: fixed;
-	display: block;
-	max-width: 1200px;
-	top: 0px;
+	
+	
 	
 }
 
-
+header div#mainTitle a{text-decoration: none;}
 
 @media (min-width: 450px) {header.stacked{height: 55px;}}
 @media (min-width: 750px) {header.stacked{height: 65px;}}
@@ -183,6 +180,10 @@ body#about p{
 body#about section#intro p{
 	font-size: 2.8rem;
 	font-weight: 700;
+}
+
+@media (max-width: 550px) {
+	body#about section#intro div#photoSpace { width: 48%; float: left; margin-top: 30px;}
 }
 
 @media (max-width: 650px) {body#about section#intro p { font-size: 1.8rem; }}

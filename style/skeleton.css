@@ -28,21 +28,28 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.container {
+.container,
+.stacked {
 	position: relative;
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 20px;
 	box-sizing: border-box; }
-.stacked {
 
+.stacked {
+	position: fixed;
 }
+
 .column,
 .columns {
 	width: 100%;
 	float: left;
 	box-sizing: border-box; }
+
+@media (max-width: 400px){
+	.stacked {width: 87.5%;}
+}
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -399,11 +406,13 @@ hr {
 	border-top: 1px solid #E1E1E1; }
 
 
+
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Self Clearing Goodness */
-.container:after,
+.container:after
+.stacked:after,
 .row:after,
 .u-cf {
 	content: "";
