@@ -115,6 +115,7 @@ nav{
 
 	nav{
 		text-align: left;
+		float: none !important;
 		margin-top: 0.9rem;
 	}
 
@@ -133,17 +134,17 @@ section#workArray{
 
 
 div.workThumb{
-	height: 180px;
 	margin-bottom: 3.8%;
-
-	background-color: red;
 }
 
-/*@media (max-width: 400px) {div.workThumb{height: 300px;}}
-@media (min-width: 400px) {div.workThumb{height: 70px;}}*/
-@media (min-width: 650px) {div.workThumb{height: 105px;}}
-@media (min-width: 950px) {div.workThumb{height: 140px;}}
-@media (min-width: 1200px) {div.workThumb{height: 180px;}}
+div.workThumb img{
+	width: 100%;
+}
+
+section#workArray a:hover{
+	opacity: 0.75;
+}
+
 
 @media (max-width: 650px) {
 
@@ -158,7 +159,7 @@ div.workThumb{
 	section#workArray .columns:nth-child(3) {
 		margin-left: 0; }
 
-	div.workThumb{height: 150px;}
+	/*div.workThumb{height: 150px;}*/
 
 
 }
