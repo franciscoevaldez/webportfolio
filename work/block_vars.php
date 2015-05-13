@@ -19,11 +19,12 @@ $wWorkList = array (
 	array("science and technology","scienceandtechnology"),
 
 	array("vida de vivos","vidadevivos"),
-	array("prototype","prototype"),
+	//array("prototype","prototype"),
+	array("posters","posters"),
 	array("el observatorio","elobservatorio"),
 	array("lote 77","lote77"),
 
-	array("posters","posters")
+	
 );
 
 // return vars for next and previous
