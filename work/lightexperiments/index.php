@@ -30,18 +30,21 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	The project consisted of an element capable of filtering sunlight. Different shapes and capabilities where explored and these are the results. Inspiration was taken from the amazing works of James Turrell and other great artists.
+	</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Year: </strong>2007<br/>
+	Project developed for Cátedra Longinotti, Morfología. FADU - UBA
+	</p>';
+
+	$wDescriptionES = '<p>
+	Tomando inspiración de las obras de James Turrell y otros grandes artistas, se partió de la idea de un objeto secuencial capaz de filtrar selectivamente los rayos lumínicos provenientes del sol y así ambientar un espacio interior. 
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Año: </strong>2007<br/>
+	Proyecto desarrollado para la cátedra Longinotti de Morfología. FADU - UBA
 	</p>';
 
 	include '../block_header.php' ?>	

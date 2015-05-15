@@ -30,18 +30,21 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	Deluxe CD boxset. Departing from the most common topics in Bjork’s music, I worked with the idea of “music for the no-places”. This CD was thought as an ideal companion for headphones and a flight, and the design was developed to reflect this idea. 
+	</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Year: </strong>2008<br/>
+	Project developed for Cátedra Gabriele, Diseño Gráfico. FADU - UBA
+	</p>';
+
+	$wDescriptionES = '<p>
+	Boxset CD de edición limitada. Alejándome de los temas más comunes de la música de Bjork, trabajé con la idea de “música para los no-lugares”. El CD fue pensado como la compañía ideal para un vuelo con auriculares, y la gráfica estuvo diseñada para reflejar esta idea. 
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Año: </strong>2008<br/>
+	Proyecto desarrollado para la cátedra Gabriele de Diseño Gráfico. FADU - UBA
 	</p>';
 
 	include '../block_header.php' ?>	

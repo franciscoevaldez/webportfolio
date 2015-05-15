@@ -30,18 +30,21 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	Social posters on urban issues.
+	</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Year: </strong>2010<br/>
+	Project developed for Cátedra Gabriele, Diseño Gráfico. FADU - UBA
+	</p>';
+
+	$wDescriptionES = '<p>
+	Afiches sociales sobre problemáticas urbanas.
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Año: </strong>2010<br/>
+	Proyecto desarrollado para la cátedra Gabriele de Diseño Gráfico. FADU - UBA
 	</p>';
 
 	include '../block_header.php' ?>	

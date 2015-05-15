@@ -30,18 +30,27 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	Laboratorios Bagó is one of the largest pharmaceutical companies in the continent. In 2012, the brandbean was in charge of redesigning their website. This was used a template for local websites across the region.
+	</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Agency: </strong> mediomundo + the brandbean <br/>
+	<strong>Year: </strong>2012<br/>
+	<strong>People Involved: </strong>Santiago Spigariol, Hilary Strong.
+	<br/> <br/>
+	Project developed for the brandbean and Mediomundo.tv.
+	</p>';
+
+	$wDescriptionES = '<p>
+	En el año 2012 se produjo un rediseño de la web institucional de los Laboratorios Bagó. El mismo fue utilizado como rector para las webs locales de toda la región. 
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Agencia: </strong> mediomundo + the brandbean  <br/>
+	<strong>Año: </strong>2012<br/>
+	<strong>Realizado junto a: </strong>Santiago Spigariol, Hilary Strong.
+	<br/> <br/>
+	Trabajo realizado para the brandbean y Mediomundo.tv.
 	</p>';
 
 	include '../block_header.php' ?>	

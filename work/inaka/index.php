@@ -30,18 +30,29 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
+	inaka is a growing software company that focuses on web and mobile apps. For them, a new brand identity was developed, starting with the name and logo, and reaching different communication elements.
 	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	<p>For this challenge, big inspiration was taken from special characters and symbols frequently used when programming.
+	</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Agency: </strong> the brandbean <br/>
+	<strong>Year: </strong>2012<br/>
+	<strong>People Involved: </strong>Santiago Spigariol, Hilary Strong, Daniela Raskovsky.
+	<br/> <br/>
+	Project developed for the brandbean.
+	</p>';
+
+	$wDescriptionES = '<p>
+	inaka es una empresa de desarrollo de aplicaciones mobile y web. Se desarrolló una nueva identidad partiendo desde el naming hasta la aplicación de la marca en piezas de comunicación. Para el logo se tomó inspiración de los símbolos y caracteres utilizados en la programación.
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Agencia: </strong> the brandbean <br/>
+	<strong>Año: </strong>2012<br/>
+	<strong>Realizado junto a: </strong>Santiago Spigariol, Hilary Strong, Daniela Raskovsky.
+	<br/> <br/>
+	Trabajo realizado en the brandbean.
 	</p>';
 
 	include '../block_header.php' ?>	

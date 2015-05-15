@@ -30,18 +30,33 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	Portlebay is a young company that elaborates flavoured popcorn. 
+	Right from the start the brand had to reflect their uplifting 
+	spirits and a fresh outlook on snacks. The project was incredibly 
+	fun and spanned from naming and visual design to POP, packaging 
+	design and follow-up of the printing process. </p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Agency: </strong> the brandbean <br/>
+	<strong>Year: </strong>2012<br/>
+	<strong>People Involved: </strong>Santiago Spigariol, Hilary Strong, Daniela Raskovsky.
+	<br/> <br/>
+	Project developed for the brandbean.
+	</p>';
+
+	$wDescriptionES = '<p>
+	Portlebay es un jóven emprendimiento británico dedicado a la 
+	producción de pochoclo saborizado. El proyecto incluyó desde el 
+	naming hasta el diseño de la identidad visual, POP, el diseño del 
+	packaging y el seguimiento de la producción gráfica.
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Agencia: </strong> Luna + brandbean <br/>
+	<strong>Año: </strong>2012<br/>
+	<strong>Realizado junto a: </strong>Santiago Spigariol, Hilary Strong, Daniela Raskovsky.
+	<br/> <br/>
+	Trabajo realizado en the brandbean.
 	</p>';
 
 	include '../block_header.php' ?>	

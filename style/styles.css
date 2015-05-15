@@ -92,8 +92,8 @@ nav{
 	padding-top: 350px !important;
 }
 
-.firstContent.paddedShort{
-	padding-top: 120px !important;
+.firstContent{
+	padding-top: 82px;
 }
 
 /* smallest breakpoint */
@@ -319,6 +319,45 @@ section#worknav div:last-child{
 	width: 100%; 
 	height: 100%; }
 
+
+/* ----------------------------------------------------------------- */
+/* -------------------------- A BLOG POST -------------------------- */
+/* ----------------------------------------------------------------- */
+
+div#content > aside,
+div#content > article{
+	padding: 3rem 0 0;
+}
+
+div#content > aside{
+	padding-bottom: 1rem;
+}
+
+div#content > article{
+	padding-bottom: 6rem;
+}
+
+
+body.post aside{
+	border-bottom: 2px solid black;
+}
+
+body.post aside li{
+	list-style: none;
+	margin: 0.5rem 0;
+}
+
+body.post aside li:first-child{
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 2px solid black;
+}
+
+body.post aside li:last-child{
+	font-size: 1.0rem;
+	padding-top: 1rem;
+	margin-top: 2rem;
+}
 
 /* ------------------------------------------------------------ */
 /* -------------------------- FOOTER -------------------------- */

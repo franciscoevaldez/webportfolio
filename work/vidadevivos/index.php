@@ -30,18 +30,21 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	Collectible booklets containing interviews to iconic Argentinian figures. “Rather than an introduction, this is an intromission” says the author, and that very spirit is present in the design. Unlike traditional editorials, the text just begins, no apologies and no warnings. This helped creating the idea of a continuous text along the entire collection.
+	</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Year: </strong>2011<br/>
+	Project developed for Cátedra Manela, Editorial. FADU - UBA
+	</p>';
+
+	$wDescriptionES = '<p>
+	La colección se basó en la idea de un texto contínuo. A diferencia de los editoriales tradicionales, el texto se permite comenzar sin pedir permiso y terminar sin avisar. Esta decisión se inspiró en el caracter profundo e íntimo de los textos. «Más que una introducción, esto es una intromisión» dice la autora, y ése espíritu está presente en toda la colección.
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Año: </strong>2011<br/>
+	Proyecto desarrollado para la cátedra Manela de Editorial. FADU - UBA
 	</p>';
 
 	include '../block_header.php' ?>	

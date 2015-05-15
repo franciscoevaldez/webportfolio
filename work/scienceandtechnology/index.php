@@ -30,18 +30,21 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	Infographic showing the most relevant facts and characters of Argentinian science and technology. As a starting point, I took the signing and style used to explain molecular unions. That way, I was able to explain influence and connections between scientists and discoveries. 
+	</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Year: </strong>2010<br/>
+	Project developed for Cátedra Gabriele, Diseño Gráfico. FADU - UBA
+	</p>';
+
+	$wDescriptionES = '<p>
+	Infografía que une los hechos y personajes más importantes de la ciencia y la tecnología Argentina. Tomando como punto de partida el lenguaje gráfico de las uniones moleculares se muestran las relaciones e influencias entre figuras y descubrimientos destacados de los últimos dos siglos. 
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Año: </strong>2010<br/>
+	Proyecto desarrollado para la cátedra Gabriele de Diseño Gráfico. FADU - UBA
 	</p>';
 
 	include '../block_header.php' ?>	

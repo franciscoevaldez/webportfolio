@@ -30,18 +30,37 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	The Automovil Club Argentino (ACA) is the biggest auto club in 
+	Argentina and one of the most respected and traditional institutions 
+	in the region. In celebration of their 110th anniversary, a full 
+	communication campaign was designed. </p>
+	<p>At the center piece of the design is the totem, one of the 
+	club’s most iconic elements present at every office and service 
+	station along the entire country.</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
+	<strong>Agency: </strong> Luna + the brandbean <br/>
 	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>People Involved: </strong>Horacio A. Agulla, Santiago Spigariol, 
+	Hilary Strong, Sebasti&aacute;n Barrena
+	<br/> <br/>
+	Project developed for Luna and the brandbean.
+	</p>';
+
+	$wDescriptionES = '<p>
+	Con motivo del 110º aniversario del Automóvil Club Argentino, se 
+	diseñó una campaña de vía pública y de comunicación.
+	</p>
+	<p>El diseño surgió a partir del característico tótem que marca la 
+	ubicación de las sedes del club a lo largo y ancho del país.</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Agencia: </strong> Luna + the brandbean <br/>
+	<strong>Año: </strong>2013<br/>
+	<strong>Realizado junto a: </strong>Horacio A. Agulla, Santiago Spigariol, 
+	Hilary Strong, Sebasti&aacute;n Barrena
+	<br/> <br/>
+	Trabajo realizado para Luna y the brandbean.
 	</p>';
 
 	include '../block_header.php' ?>	

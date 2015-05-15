@@ -3,7 +3,7 @@
 		<div class="row">
 
 			<div id="mainTitle" class="u-pull-left">
-				<h1><a href="../index.html">fran valdez</a><em> / work / <?php echo $wTitle; ?></em></h1>
+				<h1><a href="../../index.html">fran valdez</a><em> / work / <?php echo $wTitle; ?></em></h1>
 			</div>
 
 			<nav class="u-pull-right">

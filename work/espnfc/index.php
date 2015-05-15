@@ -30,18 +30,27 @@ include("../block_vars.php");
 	<?php 
 
 	$wDescriptionEN = '<p>
-	Con motivo del 110º aniversario del Automóvil Club Argentino, 
-	se diseñó una campaña de vía pública y de comunicación. El diseño 
-	surgió a partir del característico tótem que marca la ubicación de 
-	las sedes del club a lo largo y ancho del país.
-	</p>
-	<p>** Trabajo realizado para Luna y the brandbean junto a 
-	Horacio A. Agulla, Santiago Spigariol y Hilary Strong **</p>';
+	Ahead of launching a football-dedicated afternoon show, a new dedicated identity was developed. The project included content and promotional campaigns.
+	</p>';
 
 	$wSideNotesEN = '<p>
-	<strong>Agency: </strong> Luna + brandbean <br/>
-	<strong>Year: </strong>2013<br/>
-	<strong>People Involved: </strong>Horacio Agulla, Santiago Spigariol, Hilary Strong, Sebasti&aacute;n Barrena
+	<strong>Agency: </strong> Luna + the brandbean <br/>
+	<strong>Year: </strong>2012<br/>
+	<strong>People Involved: </strong>Horacio A. Agulla, Santiago Spigariol, Hilary Strong, Daniela Raskovsky.
+	<br/> <br/>
+	Project developed for Luna and the brandbean.
+	</p>';
+
+	$wDescriptionES = '<p>
+	Con el lanzamiento de un nuevo programa dedicado exclusivamente al fútbol, se desarrolló un sistema de identidad propio para sus contenidos y sus campañas promocionales.
+	</p>';
+
+	$wSideNotesES = '<p>
+	<strong>Agencia: </strong> Luna + the brandbean <br/>
+	<strong>Año: </strong>2012<br/>
+	<strong>Realizado junto a: </strong>Horacio A. Agulla, Santiago Spigariol, Hilary Strong, Daniela Raskovsky.
+	<br/> <br/>
+	Trabajo realizado junto a Luna en the brandbean.
 	</p>';
 
 	include '../block_header.php' ?>	
