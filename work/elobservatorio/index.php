@@ -52,8 +52,8 @@ include("../block_vars.php");
 	<article id="work" class="row">
 
 		<div class="row">
-			<div class="six columns"><img src="final_diario01.png"></div>
-			<div class="six columns"><img src="final_diario02.png"></div>
+			<div class="six columns"><img src="final_diario01.jpg"></div>
+			<div class="six columns"><img src="final_diario02.jpg"></div>
 		</div>
 
 		<div class="row">

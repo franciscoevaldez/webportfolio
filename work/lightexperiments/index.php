@@ -79,8 +79,8 @@ include("../block_vars.php");
 		<div class="row"><img src="m2-tp6-foto-016.jpg"></div>
 
 		<div class="row">
-			<div class="six columns"><img src="m2-tp6-rel1.png"></div>
-			<div class="six columns"><img src="m2-tp6-rel2.png"><img src="m2-tp6-rel2.png"></div>
+			<div class="six columns"><img src="m2-tp6-rel1.jpg"></div>
+			<div class="six columns"><img src="m2-tp6-rel2.jpg"><img src="m2-tp6-rel2.jpg"></div>
 		</div>
 
 		<div class="row"><img src="m2-tp6-001.jpg"></div>

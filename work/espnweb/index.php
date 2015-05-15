@@ -57,14 +57,14 @@ include("../block_vars.php");
 
 	<article id="work" class="row">
 
-		<div class="row"><img src="espn-web-responsive1.png"></div>
+		<div class="row"><img src="espn-web-responsive1.jpg"></div>
 
 		<div class="row">
 			<div class="six columns"><img src="espn-web-carrousel1.gif"></div>
 			<div class="six columns"><img src="espn-web-ticker1.gif"></div>
 		</div>
 
-		<div class="row"><img src="espn-web-colores.png"></div>
+		<div class="row"><img src="espn-web-colores.jpg"></div>
 
 	</article>
 

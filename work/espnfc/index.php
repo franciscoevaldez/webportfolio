@@ -57,7 +57,7 @@ include("../block_vars.php");
 
 	<article id="work" class="row">
 
-		<div class="row"><img src="espnfc_header-01.png"></div>
+		<div class="row"><img src="espnfc_header-01.jpg"></div>
 
 		<div class="row"><img src="espnfc_viapublica-v.jpg"></div>
 
@@ -67,7 +67,7 @@ include("../block_vars.php");
 
 		<div class="row"><img src="espnfc_web.jpg"></div>
 
-		<div class="row"><img src="espnfc_app.png"></div>
+		<div class="row"><img src="espnfc_app.jpg"></div>
 
 	</article>
 
